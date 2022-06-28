@@ -5,12 +5,12 @@ END: 'rmx';
 PRINT: 'xipetiao';
 SCAN: 'malveke';
 
-INT: 'laglock'
-   	[0-9]+;
-STRING: 'cochinae'
-		[a-zA-Z]+ [0-9]*;
-FLOAT: 'elcasti'
-	[0-9]+ ','[0-9]*;
+
+INT:[0-9]+;
+   	
+STRING:[a-zA-Z]+ [0-9]*; 
+
+FLOAT: 	[0-9]+ ','[0-9]*;
 
 IF: 'kpaha';
 ELSE: 'wasa';
@@ -19,6 +19,7 @@ FOR: 'luv';
 
 AND: '&&';
 OR: '||';
+TRUE: 'RIAL';
 
 SUM: '+';
 DIV: '/';
